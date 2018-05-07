@@ -15,4 +15,4 @@ $("#msg").val("search for.......");
 
 $("div").addClass("box");
 
-$("a").attr("href", "http://www.google.com/")
+$("a").attr("href", "http://www.google.com/");
