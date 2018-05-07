@@ -6,33 +6,37 @@
  */
 
 // all elements
-// $("*").css("background-color", "yellow");
+ $("*").css("background-color", "yellow");
 
 // all p elements
-
+$("p").css("background-color","red");
 
 // the p element with an ID of "intro"
-
+$("#intro").css("background-color","lightblue");
 
 // all elements with a class of "note"
-
+$(".note").css("color","white");
 
 // all DIV elements with a class of note
-
+$("div.note").css("color","blue");
 
 // all p elements in the article element
-
+$("article>p").css("font-size","20px");
+$("article>p").css("font-weight","bold");
 
 // the last element in any section which is a p tag
 
-
+$("p:last").css("background-color","green");
 // the first paragraph on the page
 
+$("p:first").css("background-color","green");
 
 // all p elements which have a link
 
+ $("p > [href]").css("font-weight","bold");
 
 // the second li within nested ul element
+
 
 
 // every second and third p element
